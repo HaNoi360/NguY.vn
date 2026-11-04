@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tất cả từ khóa | Đông Y Dưỡng Sinh</title>
+<meta name="description" content="151 từ khóa trong 30 bài viết.">
+<style>:root{
+  --bg:#fbfaf7; --surface:#ffffff; --text:#222a2e; --muted:#6b7478;
+  --accent:#2f6f4f; --accent-soft:#e6f1ea; --border:#e4e2da;
+  --radius:10px; --maxw:760px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#15191a; --surface:#1d2324; --text:#e6e9e8; --muted:#9aa5a8;
+    --accent:#6fc79a; --accent-soft:#233a2e; --border:#2e3638;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  font-size:17px; line-height:1.75;
+}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 18px}
+
+/* Header / Footer */
+.site-header{background:var(--surface); border-bottom:1px solid var(--border)}
+.site-header .wrap{display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding-top:14px; padding-bottom:14px; flex-wrap:wrap}
+.brand{font-size:20px; font-weight:700; color:var(--accent)}
+.brand:hover{text-decoration:none}
+.tagline{color:var(--muted); font-size:14px}
+.site-footer{margin-top:56px; padding:26px 0; border-top:1px solid var(--border); color:var(--muted); font-size:14px; text-align:center}
+
+/* Breadcrumb */
+.breadcrumb{font-size:14px; color:var(--muted); margin:22px 0 6px}
+.breadcrumb a{color:var(--muted)}
+.breadcrumb span.sep{margin:0 6px}
+
+/* Article */
+article h1{font-size:2rem; line-height:1.3; margin:.3em 0 .4em}
+article h2{font-size:1.45rem; line-height:1.35; margin:1.8em 0 .5em; padding-bottom:.25em; border-bottom:2px solid var(--accent-soft)}
+article h3{font-size:1.15rem; margin:1.4em 0 .3em; color:var(--accent)}
+article p{margin:.9em 0}
+article ul, article ol{padding-left:1.4em}
+article li{margin:.35em 0}
+.lead{color:var(--muted); font-size:1.05rem; margin:.2em 0 1em}
+.meta{color:var(--muted); font-size:14px; display:flex; flex-wrap:wrap; gap:4px 14px; margin-bottom:14px}
+
+/* Table of contents */
+.toc{background:var(--accent-soft); border-radius:var(--radius); padding:14px 20px; margin:20px 0}
+.toc strong{display:block; margin-bottom:6px}
+.toc ol{margin:0; padding-left:1.2em}
+.toc li{margin:.2em 0; font-size:15px}
+.toc li.l3{margin-left:1.1em; list-style:circle}
+
+/* Tags */
+.tags{margin:6px 0}
+.tag{display:inline-block; background:var(--accent-soft); color:var(--accent); border-radius:999px; padding:1px 12px; margin:3px 5px 3px 0; font-size:13px}
+.tag:hover{text-decoration:none; background:var(--accent); color:var(--bg)}
+.tag.cat{background:transparent; border:1px solid var(--accent)}
+.tag.cat:hover{background:var(--accent); color:var(--bg)}
+.tag.more{background:transparent; text-decoration:underline}
+.group-label{font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin:16px 0 2px}
+
+/* Related + list cards */
+.section-title{font-size:1.2rem; margin:40px 0 12px}
+.cards{display:grid; gap:12px}
+.card{background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:14px 18px}
+.card h3{margin:0 0 4px; font-size:1.1rem}
+.card p{margin:4px 0; color:var(--muted); font-size:15px; line-height:1.55}
+.search{width:100%; padding:10px 14px; border:1px solid var(--border); border-radius:var(--radius); background:var(--surface); color:var(--text); font-size:16px; margin:14px 0}
+.count{color:var(--muted); font-size:14px; margin:18px 0 10px}
+.hidden{display:none}
+
+/* Pagination */
+.pager{display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin:30px 0 6px}
+.pager a, .pager span{min-width:40px; padding:6px 12px; text-align:center; border:1px solid var(--border); border-radius:var(--radius); background:var(--surface); font-size:15px; line-height:1.5}
+.pager a:hover{text-decoration:none; border-color:var(--accent)}
+.pager .cur{background:var(--accent); color:var(--bg); border-color:var(--accent); font-weight:600}
+.pager .gap{border:0; background:none; min-width:0; padding:6px 2px; color:var(--muted)}
+
+@media (max-width:600px){
+  body{font-size:16px}
+  article h1{font-size:1.6rem}
+  .pager a, .pager span{min-width:36px; padding:5px 9px}
+}
+@media print{
+  .site-header,.site-footer,.related,.toc,.pager{display:none}
+  body{background:#fff; color:#000}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Đông Y Dưỡng Sinh</a>
+    <span class="tagline">Kiến thức kinh lạc và huyệt đạo</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 style="margin-top:28px">Tất cả từ khóa</h1>
+  <p class="lead">151 từ khóa trong 30 bài viết.</p>
+  <div class="tags">
+          <a class="tag" href="../tu-khoa/12-kinh-ch-nh.html">12 kinh chính (2)</a>
+          <a class="tag" href="../tu-khoa/12-kinh-trong-d-ng-y.html">12 kinh trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/b-ch-h-i-trong-d-ng-y.html">bách hội trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/b-m-huy-t-l-g.html">bấm huyệt là gì (2)</a>
+          <a class="tag" href="../tu-khoa/b-m-huy-t-trong-d-ng-y.html">bấm huyệt trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/can-t-m-t-ph-th-n.html">can tâm tỳ phế thận (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-c-th-khi-giao-m-a.html">chăm sóc cơ thể khi giao mùa (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-gi-c-ng.html">chăm sóc giấc ngủ (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-s-c-kh-e-ch-d-ng.html">chăm sóc sức khỏe chủ động (2)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-s-c-kh-e-khi-giao-m-a.html">chăm sóc sức khỏe khi giao mùa (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-s-c-kh-e-kh-ng-d-ng-thu-c.html">chăm sóc sức khỏe không dùng thuốc (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-s-c-kh-e-m-a-d-ng.html">chăm sóc sức khỏe mùa đông (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-s-c-kh-e-m-a-h.html">chăm sóc sức khỏe mùa hè (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-s-c-kh-e-theo-d-ng-y.html">chăm sóc sức khỏe theo đông y (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-s-c-t-v.html">chăm sóc tỳ vị (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-n-ng-ch-m-l-nh.html">chườm nóng chườm lạnh (1)</a>
+          <a class="tag" href="../tu-khoa/ch-m-n-ng-hay-ch-m-l-nh.html">chườm nóng hay chườm lạnh (1)</a>
+          <a class="tag" href="../tu-khoa/ch-d-n-u-ng-l-nh-m-nh.html">chế độ ăn uống lành mạnh (1)</a>
+          <a class="tag" href="../tu-khoa/ch-c-n-ng-t-ng-ph.html">chức năng tạng phủ (1)</a>
+          <a class="tag" href="../tu-khoa/c-c-huy-t-tr-n-c-th.html">các huyệt trên cơ thể (1)</a>
+          <a class="tag" href="../tu-khoa/c-c-k-thu-t-xoa-b-p.html">các kỹ thuật xoa bóp (1)</a>
+          <a class="tag" href="../tu-khoa/c-ch-ch-m-l-nh-an-to-n.html">cách chườm lạnh an toàn (1)</a>
+          <a class="tag" href="../tu-khoa/c-ch-ch-m-n-ng-an-to-n.html">cách chườm nóng an toàn (1)</a>
+          <a class="tag" href="../tu-khoa/c-ch-c-o-gi-an-to-n.html">cách cạo gió an toàn (1)</a>
+          <a class="tag" href="../tu-khoa/c-ch-ng-m-ch-n-d-ng-c-ch.html">cách ngâm chân đúng cách (1)</a>
+          <a class="tag" href="../tu-khoa/c-n-b-ng-m-d-ng.html">cân bằng âm dương (1)</a>
+          <a class="tag" href="../tu-khoa/c-o-gi-c-t-c-d-ng-g.html">cạo gió có tác dụng gì (1)</a>
+          <a class="tag" href="../tu-khoa/c-o-gi-d-ng-y.html">cạo gió đông y (1)</a>
+          <a class="tag" href="../tu-khoa/c-o-gi-khi-b-c-m.html">cạo gió khi bị cảm (1)</a>
+          <a class="tag" href="../tu-khoa/c-o-gi-l-g.html">cạo gió là gì (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-y-l-g.html">đông y là gì (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh.html">dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-d-ng-y.html">dưỡng sinh đông y (2)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-d-ng-y-m-a-l-nh.html">dưỡng sinh đông y mùa lạnh (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-d-i-v-i-s-c-kh-e.html">dưỡng sinh đối với sức khỏe (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-gi-c-ng.html">dưỡng sinh giấc ngủ (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-kh-huy-t.html">dưỡng sinh khí huyết (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-l-g.html">dưỡng sinh là gì (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-m-a-d-ng.html">dưỡng sinh mùa đông (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-m-a-h.html">dưỡng sinh mùa hè (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-m-a-h-theo-d-ng-y.html">dưỡng sinh mùa hè theo đông y (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-theo-m-a.html">dưỡng sinh theo mùa (2)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-th-ch-t-tinh-th-n.html">dưỡng sinh thể chất tinh thần (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-v-dinh-d-ng.html">dưỡng sinh và dinh dưỡng (1)</a>
+          <a class="tag" href="../tu-khoa/d-ng-sinh-v-h-h-p.html">dưỡng sinh và hô hấp (1)</a>
+          <a class="tag" href="../tu-khoa/gi-c-h-i-c-nguy-hi-m-kh-ng.html">giác hơi có nguy hiểm không (1)</a>
+          <a class="tag" href="../tu-khoa/gi-c-h-i-d-ng-y.html">giác hơi đông y (1)</a>
+          <a class="tag" href="../tu-khoa/gi-c-h-i-l-g.html">giác hơi là gì (1)</a>
+          <a class="tag" href="../tu-khoa/gi-c-ng-theo-d-ng-y.html">giấc ngủ theo đông y (1)</a>
+          <a class="tag" href="../tu-khoa/gi-c-ng-v-s-c-kh-e.html">giấc ngủ và sức khỏe (1)</a>
+          <a class="tag" href="../tu-khoa/gi-m-c-th.html">giữ ấm cơ thể (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-l-g-trong-d-ng-y.html">huyết là gì trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-b-ch-h-i.html">huyệt bách hội (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-b-ch-h-i-d-u.html">huyệt bách hội ở đâu (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-d-o-l-g.html">huyệt đạo là gì (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-h-p-c-c.html">huyệt hợp cốc (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-h-p-c-c-li4.html">huyệt hợp cốc LI4 (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-h-p-c-c-d-u.html">huyệt hợp cốc ở đâu (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-tr-n-d-nh-d-u.html">huyệt trên đỉnh đầu (1)</a>
+          <a class="tag" href="../tu-khoa/huy-t-v-trong-d-ng-y.html">huyệt vị trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/h-n-nhi-t-trong-d-ng-y.html">hàn nhiệt trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/h-i-th-trong-d-ng-y.html">hơi thở trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/h-ng-d-n-xoa-b-p.html">hướng dẫn xoa bóp (1)</a>
+          <a class="tag" href="../tu-khoa/h-th-ng-12-kinh-m-ch.html">hệ thống 12 kinh mạch (1)</a>
+          <a class="tag" href="../tu-khoa/h-th-ng-huy-t-d-o.html">hệ thống huyệt đạo (1)</a>
+          <a class="tag" href="../tu-khoa/h-th-ng-kinh-l-c.html">hệ thống kinh lạc (1)</a>
+          <a class="tag" href="../tu-khoa/h-c-thuy-t-ng-h-nh.html">học thuyết ngũ hành (1)</a>
+          <a class="tag" href="../tu-khoa/h-c-thuy-t-t-ng-t-ng.html">học thuyết tạng tượng (1)</a>
+          <a class="tag" href="../tu-khoa/h-c-thuy-t-m-d-ng.html">học thuyết âm dương (1)</a>
+          <a class="tag" href="../tu-khoa/h-p-c-c-trong-d-ng-y.html">hợp cốc trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/khi-n-o-n-n-ch-m-l-nh.html">khi nào nên chườm lạnh (1)</a>
+          <a class="tag" href="../tu-khoa/khi-n-o-n-n-ch-m-n-ng.html">khi nào nên chườm nóng (1)</a>
+          <a class="tag" href="../tu-khoa/kh-huy-t-l-u-th-ng.html">khí huyết lưu thông (1)</a>
+          <a class="tag" href="../tu-khoa/kh-huy-t-trong-d-ng-y.html">khí huyết trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/kh-l-g-trong-d-ng-y.html">khí là gì trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/kinh-l-c-l-g.html">kinh lạc là gì (1)</a>
+          <a class="tag" href="../tu-khoa/kinh-m-ch-trong-d-ng-y.html">kinh mạch trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/kinh-m-kinh-d-ng.html">kinh âm kinh dương (1)</a>
+          <a class="tag" href="../tu-khoa/ki-n-th-c-d-ng-y.html">kiến thức đông y (1)</a>
+          <a class="tag" href="../tu-khoa/k-thu-t-xoa-day-mi-t-b-p.html">kỹ thuật xoa day miết bóp (1)</a>
+          <a class="tag" href="../tu-khoa/luy-n-t-p-di-u-h-a-h-i-th.html">luyện tập điều hòa hơi thở (1)</a>
+          <a class="tag" href="../tu-khoa/luy-n-t-p-d-ng-sinh.html">luyện tập dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/l-u-khi-c-o-gi.html">lưu ý khi cạo gió (1)</a>
+          <a class="tag" href="../tu-khoa/l-u-khi-gi-c-h-i.html">lưu ý khi giác hơi (1)</a>
+          <a class="tag" href="../tu-khoa/l-c-m-ch.html">lạc mạch (1)</a>
+          <a class="tag" href="../tu-khoa/l-i-ch-c-a-d-ng-sinh.html">lợi ích của dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/l-i-ch-ng-m-ch-n.html">lợi ích ngâm chân (1)</a>
+          <a class="tag" href="../tu-khoa/m-t-ng-theo-d-ng-y.html">mất ngủ theo đông y (1)</a>
+          <a class="tag" href="../tu-khoa/nguy-n-l-d-ng-y.html">nguyên lý đông y (1)</a>
+          <a class="tag" href="../tu-khoa/nguy-n-l-m-d-ng.html">nguyên lý âm dương (1)</a>
+          <a class="tag" href="../tu-khoa/nguy-n-t-c-d-ng-sinh.html">nguyên tắc dưỡng sinh (2)</a>
+          <a class="tag" href="../tu-khoa/nguy-n-t-c-ng-ngon.html">nguyên tắc ngủ ngon (1)</a>
+          <a class="tag" href="../tu-khoa/nguy-n-t-c-n-u-ng-d-ng-sinh.html">nguyên tắc ăn uống dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/ng-m-ch-n-an-to-n.html">ngâm chân an toàn (1)</a>
+          <a class="tag" href="../tu-khoa/ng-m-ch-n-d-ng-sinh.html">ngâm chân dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/ng-m-ch-n-n-c-m.html">ngâm chân nước ấm (1)</a>
+          <a class="tag" href="../tu-khoa/ng-m-ch-n-tr-c-khi-ng.html">ngâm chân trước khi ngủ (1)</a>
+          <a class="tag" href="../tu-khoa/ng-h-nh-kim-m-c-th-y-h-a-th.html">ngũ hành kim mộc thủy hỏa thổ (1)</a>
+          <a class="tag" href="../tu-khoa/ng-h-nh-trong-d-ng-y.html">ngũ hành trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/ng-h-nh-t-ng-sinh-t-ng-kh-c.html">ngũ hành tương sinh tương khắc (1)</a>
+          <a class="tag" href="../tu-khoa/ng-h-nh-t-ng-ph.html">ngũ hành tạng phủ (1)</a>
+          <a class="tag" href="../tu-khoa/ng-t-ng-l-c-ph.html">ngũ tạng lục phủ (1)</a>
+          <a class="tag" href="../tu-khoa/ng-v-chua-d-ng-ng-t-cay-m-n.html">ngũ vị chua đắng ngọt cay mặn (1)</a>
+          <a class="tag" href="../tu-khoa/ng-v-ng-h-nh.html">ngũ vị ngũ hành (1)</a>
+          <a class="tag" href="../tu-khoa/ng-v-trong-d-ng-y.html">ngũ vị trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-b-nh-khi-giao-m-a.html">phòng bệnh khi giao mùa (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-b-m-huy-t.html">phương pháp bấm huyệt (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-ch-m-s-c-s-c-kh-e-t-nhi-n.html">phương pháp chăm sóc sức khỏe tự nhiên (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-d-ng-sinh.html">phương pháp dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-gi-c-h-i.html">phương pháp giác hơi (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-th-gi-n-c-th.html">phương pháp thư giãn cơ thể (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-th-d-ng-sinh.html">phương pháp thở dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-xoa-b-p.html">phương pháp xoa bóp (1)</a>
+          <a class="tag" href="../tu-khoa/ph-ng-ph-p-xoa-b-p-c-b-n.html">phương pháp xoa bóp cơ bản (1)</a>
+          <a class="tag" href="../tu-khoa/sinh-ho-t-khi-tr-i-n-ng.html">sinh hoạt khi trời nóng (1)</a>
+          <a class="tag" href="../tu-khoa/th-i-ti-t-thay-d-i.html">thời tiết thay đổi (1)</a>
+          <a class="tag" href="../tu-khoa/th-ch-m-t-nhi-n.html">thở chậm tự nhiên (1)</a>
+          <a class="tag" href="../tu-khoa/th-d-ng-c-ch-d-ng-sinh.html">thở đúng cách dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/th-c-ph-m-h-n-nhi-t.html">thực phẩm hàn nhiệt (1)</a>
+          <a class="tag" href="../tu-khoa/th-c-ph-m-theo-m-a.html">thực phẩm theo mùa (1)</a>
+          <a class="tag" href="../tu-khoa/th-c-ph-m-t-nh-h-n.html">thực phẩm tính hàn (1)</a>
+          <a class="tag" href="../tu-khoa/th-c-ph-m-t-nh-nhi-t.html">thực phẩm tính nhiệt (1)</a>
+          <a class="tag" href="../tu-khoa/t-c-d-ng-c-a-b-m-huy-t.html">tác dụng của bấm huyệt (1)</a>
+          <a class="tag" href="../tu-khoa/t-c-d-ng-c-a-d-ng-sinh.html">tác dụng của dưỡng sinh (1)</a>
+          <a class="tag" href="../tu-khoa/t-c-d-ng-c-a-gi-c-h-i.html">tác dụng của giác hơi (1)</a>
+          <a class="tag" href="../tu-khoa/t-c-d-ng-c-a-xoa-b-p.html">tác dụng của xoa bóp (1)</a>
+          <a class="tag" href="../tu-khoa/t-n-12-kinh-ch-nh.html">tên 12 kinh chính (1)</a>
+          <a class="tag" href="../tu-khoa/t-nh-b-nh-c-a-th-c-ph-m.html">tính bình của thực phẩm (1)</a>
+          <a class="tag" href="../tu-khoa/t-ng-ph-trong-d-ng-y.html">tạng phủ trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/t-v-h-trong-d-ng-y.html">tỳ vị hư trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/t-v-l-g.html">tỳ vị là gì (1)</a>
+          <a class="tag" href="../tu-khoa/t-v-trong-d-ng-y.html">tỳ vị trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/t-v-v-ti-u-h-a.html">tỳ vị và tiêu hóa (1)</a>
+          <a class="tag" href="../tu-khoa/vai-tr-c-a-t-v.html">vai trò của tỳ vị (1)</a>
+          <a class="tag" href="../tu-khoa/v-c-a-th-c-ph-m-trong-d-ng-y.html">vị của thực phẩm trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/v-tr-huy-t-b-ch-h-i.html">vị trí huyệt bách hội (1)</a>
+          <a class="tag" href="../tu-khoa/v-tr-huy-t-h-p-c-c.html">vị trí huyệt hợp cốc (1)</a>
+          <a class="tag" href="../tu-khoa/xoa-b-p-b-m-huy-t.html">xoa bóp bấm huyệt (1)</a>
+          <a class="tag" href="../tu-khoa/xoa-b-p-ch-m-s-c-s-c-kh-e.html">xoa bóp chăm sóc sức khỏe (2)</a>
+          <a class="tag" href="../tu-khoa/xoa-b-p-d-ng-y.html">xoa bóp đông y (1)</a>
+          <a class="tag" href="../tu-khoa/xoa-b-p-l-g.html">xoa bóp là gì (1)</a>
+          <a class="tag" href="../tu-khoa/xoa-b-p-trong-d-ng-y.html">xoa bóp trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/y-h-c-c-truy-n.html">y học cổ truyền (1)</a>
+          <a class="tag" href="../tu-khoa/m-d-ng-trong-d-ng-y.html">âm dương trong đông y (1)</a>
+          <a class="tag" href="../tu-khoa/n-u-ng-di-u-d.html">ăn uống điều độ (1)</a>
+          <a class="tag" href="../tu-khoa/n-u-ng-m-a-d-ng.html">ăn uống mùa đông (1)</a>
+          <a class="tag" href="../tu-khoa/n-u-ng-m-a-h.html">ăn uống mùa hè (1)</a>
+          <a class="tag" href="../tu-khoa/n-u-ng-theo-d-ng-y.html">ăn uống theo đông y (2)</a>
+          <a class="tag" href="../tu-khoa/n-u-ng-theo-m-a.html">ăn uống theo mùa (1)</a>
+          <a class="tag" href="../tu-khoa/n-u-ng-theo-m-a-d-ng-y.html">ăn uống theo mùa đông y (1)</a>
+          <a class="tag" href="../tu-khoa/n-u-ng-theo-ng-v.html">ăn uống theo ngũ vị (1)</a>
+      </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">© 2026 Đông Y Dưỡng Sinh</div>
+</footer>
+</body>
+</html>
